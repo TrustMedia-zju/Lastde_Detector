@@ -95,8 +95,13 @@ def get_tau_multiscale_DE(ori_data, embed_size, epsilon,  tau_prime):
         value = get_tau_scale_DE(ori_data, embed_size, epsilon, temp_tau)
         mde.append(value) 
     mde = torch.stack(mde, dim=0)
-    std_mde = torch.std(mde, dim=0)
+    std_mde = torch.std(mde, dim=0) 
     return std_mde
+    
+    # can also try 
+    # expstd_mde = torch.exp(std_mde) 
+    # return expstd_mde
+    
 
 def experiment(ori_data, embed_size, epsilon, tau_prime):
     DE = get_tau_scale_DE(ori_data, embed_size, epsilon, 1)
