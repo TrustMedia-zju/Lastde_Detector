@@ -68,7 +68,7 @@ Other experimental scripts are located in the `shell_scripts` directory.
 We provide the following baseline implementations.
 
 - **sample-based methods:** Likelihood, LogRank, Entropy, DetectLRR, **Lastde(ours)**, Binoculars
-- **Distribution-basedMethods:** DetectGPT, DetectNPR, DNA-GPT, Fast-DetectGPT, **Lastde++(ours)**
+- **Distribution-based methods:** DetectGPT, DetectNPR, DNA-GPT, Fast-DetectGPT, **Lastde++(ours)**
 - **Plug and Play versions:** Likelihood_tocsin, LogRank_tocsin, DetectLRR_tocsin, Lastde_tocsin, Fast-DetectGPT_tocsin, Lastde++_tocsin
 - **supervised-based methods:** RoBERTa_Base, RoBERTa_Large, ReMoDetect
 
