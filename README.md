@@ -41,7 +41,7 @@ The main dataset is divided into two parts:
 
 ## Detection
 
-Running **detection_white_box.sh** or **detection_black_box.sh** in `shell_scripts` will trigger white-box and black-box detection on xsum_llama3_8b.raw_data.json, respectively.
+Running **detection_white_box.sh** or **detection_black_box.sh** in `shell_scripts` will trigger white-box and black-box detection, respectively.
 ```shell
 cd shell_scripts
 
