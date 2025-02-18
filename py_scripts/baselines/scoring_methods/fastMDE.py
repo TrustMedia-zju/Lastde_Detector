@@ -47,7 +47,7 @@ def calculate_DE(ori_data, embed_size, epsilon):
     # build orbits along second dimension, operate token_length-dimension(1,embed_*,*)
     orbits = ori_data.unfold(1, embed_size, 1)  # [1, token_length, samples_size]---> [1, token_length-embed_size+1, samples_size, embed_size]
     # calculate cosine similarity of orbits
-    orbits_cosine_similarity_sequence = torch.nn.functional.cosine_similarity(orbits[:, :-1], orbits[:, 1:], dim=-1) # 【1, token_length-embed_size+1, samples_size, embed_size】---> 【1, token_length-embed_size, samples_size】
+    orbits_cosine_similarity_sequence = torch.nn.functional.cosine_similarity(orbits[:, :-1], orbits[:, 1:], dim=-1) # [1, token_length-embed_size+1, samples_size, embed_size]---> [1, token_length-embed_size, samples_size]
     # Placing the cosine similarity into intervals, operate sample_size-dimension(in_dims=-1)
     batched_1 = torch.vmap(histcounts, in_dims=-1, out_dims=1) 
     hist, statistical_probabilities_sequence = batched_1(orbits_cosine_similarity_sequence, epsilon=epsilon)  
