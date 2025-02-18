@@ -1,6 +1,6 @@
 # Training-free LLM-generated Text Detection by Mining Token Probability Sequences
 
-This project provides the core code for the two main methods, **Lastde and Lastde++** , as presented in our paper ([OpenReview](https://openreview.net/forum?id=vo4AHjowKi&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions)).
+This project provides the core code for the two main methods, **[Lastde](https://openreview.net/forum?id=vo4AHjowKi&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions) and [Lastde++](https://openreview.net/forum?id=vo4AHjowKi&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions)** , as presented in our paper.
 
 We follow the standard testing procedures outlined in [Fast-DetectGPT](https://github.com/baoguangsheng/fast-detect-gpt/tree/main) to evaluate each detection method.
 
