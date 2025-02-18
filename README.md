@@ -74,8 +74,8 @@ We provide the following baseline implementations.
 
 We thank the authors of open source projects and models such as [Fast-DetectGPT](https://github.com/baoguangsheng/fast-detect-gpt/tree/main), [TOCSIN](https://github.com/Shixuan-Ma/TOCSIN), [ReMoDetect](https://github.com/hyunseoklee-ai/ReMoDetect) and [Binoculars](https://github.com/ahans30/Binoculars).
 
-## Cite our work
-If our work inspires you, you can cite it using the following BibTex entry:
+## Citation
+If you find this work useful, you can cite it with the following BibTex entry:
 ```markdown
 @inproceedings{
   xu2025trainingfree,
