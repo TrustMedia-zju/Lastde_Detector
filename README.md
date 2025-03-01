@@ -77,7 +77,7 @@ We thank the authors of open source projects and models such as [Fast-DetectGPT]
 ## Citation
 If you find this work useful, you can cite it with the following BibTex entry:
 ```markdown
-@inproceedings{
+@articles{
   xu2025trainingfree,
   title={Training-free {LLM}-generated Text Detection by Mining Token Probability Sequences},
   author={Yihuai Xu and Yongwei Wang and Yifei Bi and Huangsen Cao and Zhouhan Lin and Yu Zhao and Fei Wu},
