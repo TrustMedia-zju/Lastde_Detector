@@ -201,8 +201,8 @@ def experiment(args):
                         "sampled_crit": sampled_crit})
         
     # compute prediction scores for real/sampled passages
-    predictions = {'real': [get_prediction_label(x["original_crit"], args) for x in results],
-                   'samples': [get_prediction_label(x["sampled_crit"], args) for x in results]}
+    predictions = {'real': [-1 * x["original_crit"] for x in results],
+                   'samples': [-1 * x["sampled_crit"] for x in results]}
     # print(f"Real mean/std: {np.mean(predictions['real']):.2f}/{np.std(predictions['real']):.2f}, Samples mean/std: {np.mean(predictions['samples']):.2f}/{np.std(predictions['samples']):.2f}")
     fpr, tpr, roc_auc = get_roc_metrics(predictions['real'], predictions['samples'])
     p, r, pr_auc = get_precision_recall_metrics(predictions['real'], predictions['samples'])
