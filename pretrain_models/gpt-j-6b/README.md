@@ -1,0 +1,1 @@
+download [gpt-j-6b](https://huggingface.co/EleutherAI/gpt-j-6b/tree/main) from huggingface.
