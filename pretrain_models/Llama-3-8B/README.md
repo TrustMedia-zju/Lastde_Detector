@@ -1,0 +1,1 @@
+download [Llama-3-8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B/tree/main) from huggingface.
