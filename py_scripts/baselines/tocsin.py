@@ -7,7 +7,7 @@ import argparse
 import json
 import math
 import time
-from untils.metrics import get_roc_metrics, get_precision_recall_metrics
+from utils.metrics import get_roc_metrics, get_precision_recall_metrics
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from scoring_methods import fastMDE
 from scoring_methods import bart_score

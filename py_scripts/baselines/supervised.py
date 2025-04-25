@@ -5,7 +5,7 @@ import tqdm
 import argparse
 import json
 import time
-from untils.metrics import get_roc_metrics, get_precision_recall_metrics
+from utils.metrics import get_roc_metrics, get_precision_recall_metrics
 
 
 # os.chdir("......") # cache_dir

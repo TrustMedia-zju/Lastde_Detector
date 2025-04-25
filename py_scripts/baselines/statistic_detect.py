@@ -2,7 +2,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import argparse
 import  torch
 import torch.nn.functional as F
-from untils.metrics import get_roc_metrics, get_precision_recall_metrics
+from utils.metrics import get_roc_metrics, get_precision_recall_metrics
 import numpy as np
 from tqdm import tqdm
 import json
