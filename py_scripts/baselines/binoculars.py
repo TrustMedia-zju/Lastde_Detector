@@ -7,7 +7,7 @@ import json
 import os
 import transformers
 import time
-from untils.metrics import get_roc_metrics, get_precision_recall_metrics
+from utils.metrics import get_roc_metrics, get_precision_recall_metrics
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import warnings
 warnings.filterwarnings('ignore')

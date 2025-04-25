@@ -8,7 +8,7 @@ import json
 import time
 import os
 from scoring_methods import fastMDE
-from untils.metrics import get_roc_metrics, get_precision_recall_metrics
+from utils.metrics import get_roc_metrics, get_precision_recall_metrics
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import warnings
 warnings.filterwarnings('ignore')
